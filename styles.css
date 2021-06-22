@@ -1,12 +1,39 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import 'https://fonts.googleapis.com/css?family=Inter:300,400,500';
 
 /* customize header image */
 .header {
-    padding: 70px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
+    padding: 362px;
+    text-align: left;
+    background: #131313;
+    color: #fbfbfb;
     font-size: 30px;
+}
+
+.tile-resume {
+    padding: 362px;
+    text-align: center;
+    background: #f2cc8f;
+    color: #fbfbfb;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.tile-project {
+    padding: 362px;
+    text-align: right;
+    background: #131313;
+    color: #fbfbfb;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.tile-contact {
+    padding: 362px;
+    text-align: center;
+    background: #e07a5f;
+    color: #fbfbfb;
+    font-size: 30px;
+    margin-left: 0 auto;
 }
 
 .content {
@@ -20,17 +47,18 @@
 
     /* colors */
     background-color: rgb(255, 255, 255);
-    color: #555;
+    color: rgb(207, 207, 207);
 }
 
 body {
     /* font family */
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Inter", "Helvetica", "Arial", sans-serif;
     margin: 0 auto;
+    font-size: 20px;
 }
   
 h1 {
-    color: rgb(255, 255, 255);
+    color: #fbfbfb;
 }
 
 h2 {
@@ -43,5 +71,12 @@ h2 {
 h1,
 h2,
 strong {
-    color: #333;
+    color: #fbfbfb
+}
+
+.positioned {
+    position: relative;
+    align-self: center;
+    text-align: left;
+    font-size: 20px;
 }
